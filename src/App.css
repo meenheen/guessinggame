@@ -1,0 +1,30 @@
+:root {
+  /* CSS HSL */
+--prussian-blue: hsla(209, 53%, 16%, 1);
+--medium-turquoise: hsla(178, 41%, 63%, 1);
+--powder-blue: hsla(184, 52%, 79%, 1);
+--melon: hsla(10, 61%, 78%, 1);
+--rosy-brown: hsla(1, 23%, 64%, 1);
+}
+
+body {
+  background-color: var(--powder-blue);
+  min-height: 100vh;
+  margin: 0;
+}
+#root {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.App {
+  background-color: var(--rosy-brown);
+  display: grid;
+  place-items: center;
+}
+h1 {
+  color: var(--melon);
+}
+.message {
+  color: antiquewhite;
+}
